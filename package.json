@@ -1,0 +1,13 @@
+{
+  "name": "podman-in-podman-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "podman:build": "podman build . -t podman-in-podman-node",
+    "podman:run": "podman run --rm --privileged -it -t podman-in-podman-node /bin/bash",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
