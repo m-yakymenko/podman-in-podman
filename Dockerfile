@@ -1,3 +1,3 @@
 FROM quay.io/podman/stable
-RUN sudo dnf -y install nodejs
+RUN sudo dnf -y install nodejs:20
 
