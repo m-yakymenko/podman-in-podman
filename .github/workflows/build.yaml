@@ -32,6 +32,7 @@ jobs:
         with:
           images: gonzika/podman-in-podman
           tags: |
+            type=semver,pattern={{version}}
             type=raw,value={{branch}}
 
       - name: Build and push Docker image
