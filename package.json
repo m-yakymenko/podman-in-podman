@@ -1,6 +1,6 @@
 {
   "name": "podman-in-podman-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "podman:build": "podman build . -t podman-in-podman-node",
